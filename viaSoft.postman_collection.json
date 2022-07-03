@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "6d15ab94-bf73-48bb-8262-4cf106f17680",
+		"name": "viaSoft",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16032113"
+	},
+	"item": [
+		{
+			"name": "checkCurrentStatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/checkFazenda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"checkFazenda"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkCurrentStatusByUF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/checkFazenda/PR",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"checkFazenda",
+						"PR"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllByUF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/checkFazenda/byDate/PR",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"checkFazenda",
+						"byDate",
+						"PR"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "instableUF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/checkFazenda/instableUF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"checkFazenda",
+						"instableUF"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
